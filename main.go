@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	ALIVE  = true
-	DEAD   = false
+	//	ALIVE  = true
+	//	DEAD   = false
 	WIDTH  = 50
 	HEIGHT = 50
 )
