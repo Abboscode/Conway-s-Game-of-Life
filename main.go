@@ -13,9 +13,9 @@ const (
 
 func createWindow(row int, col int) [][]int {
 
-	window := make([][]int, HEIGHT)
+	window := make([][]int, row)
 	for i := range window {
-		window[i] = make([]int, WIDTH)
+		window[i] = make([]int, col)
 	}
 
 	return window
